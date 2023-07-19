@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Borsok';
+    src: url('Borsok.eot');
+    src: url('Borsok.eot?#iefix') format('embedded-opentype'),
+        url('Borsok.woff2') format('woff2'),
+        url('Borsok.woff') format('woff'),
+        url('Borsok.ttf') format('truetype'),
+        url('Borsok.svg#Borsok') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+

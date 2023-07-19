@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'mistral-normal';
+    src: url('mistral-normal.eot');
+    src: url('mistral-normal.eot?#iefix') format('embedded-opentype'),
+        url('mistral-normal.woff2') format('woff2'),
+        url('mistral-normal.woff') format('woff'),
+        url('mistral-normal.ttf') format('truetype'),
+        url('mistral-normal.svg#mistral-normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
