@@ -141,6 +141,8 @@ h6 small {
 
 #main-title {
 	font-family: 'Mistral', cursive;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .pages h2 {
