@@ -1,41 +1,1080 @@
-<html>
-	<head>
-		<style>
-			.scroll-holder-right{
-				width:20%;
-				min-width:200px;
-				height:330px;
-				background-color:blue;
-				display:block;
-				float:right;
-			}
-			.scroll-holder-left{
-				width:20%;
-				min-width:200px;
-				height:330px;
-				background-color:green;
-				display:block;
-				float:left;
-			}
-			.scroll-holder-wide{
-				width:60%;
-				min-width:600px;
-				height:330px;
-				background-color:red;
-				display:block;
-				float:left;
-			}
-			#content{
-				width:100%;
-				min-width:1000px;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="content">
-			<div class="scroll-holder-left"></div>
-			<div class="scroll-holder-wide">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</div>
-			<div class="scroll-holder-right"></div>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+	  
+	  <meta name="robots" content="noindex, follow">
+      <meta http-equiv='cache-control' content='no-cache'> 
+      <meta http-equiv='expires' content='0'> 
+      <meta http-equiv='pragma' content='no-cache'>
+	  
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="Домашний частный приют для бездомных животных «Дом для Шарика» Володарск">
+	  <meta name="keywords" content="приют, бездомные животные, собаки, кошки, потеряшки, помощь, Володарск">
+      <meta name="author" content="">
+      <!-- Page title -->
+      <title>Дом для Шарика | Главная</title>
+      <!--[if lt IE 9]>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+      <!-- Bootstrap Core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <!-- Icon fonts -->
+      <link href="fonts/fontawesome/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+      <link href="fonts/flaticons/flaticon.css" rel="stylesheet" type="text/css">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	  <!-- Local fonts -->
+      <link href="fonts/borsok/stylesheet.css" rel="stylesheet">
+	  <link href="fonts/mistral-normal/stylesheet.css" rel="stylesheet">
+      <!-- Style CSS -->
+      <link href="css/style.css" rel="stylesheet">
+	  <!-- GLightbox -->
+	  <link rel="stylesheet" href="vendor/glightbox/css/glightbox.css">
+	  <script src="vendor/glightbox/js/glightbox.js"></script>
+      <!-- Plugins CSS -->
+      <link rel="stylesheet" href="css/plugins.css">
+      <!-- LayerSlider CSS -->
+      <link rel="stylesheet" href="vendor/layerslider/css/layerslider.css">
+      <!-- Color Style CSS -->
+      <link href="styles/maincolors.css" rel="stylesheet">
+      <!-- Favicons--> 
+	  <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
+	  <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon-48.ico">
+	  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+	  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+	  <link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196">
+	  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+	  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+	  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	  <link rel="icon" type="image/png" href="favicons/favicon-128.png" sizes="128x128">
+	  <meta name="application-name" content="Дом для Шарика">
+	  <meta name="msapplication-TileColor" content="#FFFFFF">
+	  <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+	  <meta name="msapplication-square70x70logo" content="favicons/mstile-70x70.png">
+	  <meta name="msapplication-square150x150logo" content="favicons/mstile-150x150.png">
+	  <meta name="msapplication-wide310x150logo" content="favicons/mstile-310x150.png">
+	  <meta name="msapplication-square310x310logo" content="favicons/mstile-310x310.png">
+	<!-- Switcher Only -->
+	<link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/css/switcher.css" media="all">
+	<!-- END Switcher Styles -->
+
+	<!-- Demo Examples (For Module #3) -->
+	<link rel="alternate stylesheet" type="text/css" href="styles/bluepet.css" title="bluepet" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="styles/delicatepet.css" title="delicatepet" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="styles/maincolors.css" title="maincolors" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="styles/tropicalpet.css" title="tropicalpet" media="all">
+	<link rel="alternate stylesheet" type="text/css" href="styles/sweetpet.css" title="sweetpet" media="all">
+	<!-- END Demo Examples -->
+
+   </head>
+   <body id="page-top">
+              <!-- Start Switcher -->
+      <div class="demo_changer">
+         <div class="demo-icon">
+            <i class="fa fa-cog fa-2x"></i>
+         </div>
+         <!-- end opener icon -->
+         <div class="form_holder text-center">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="predefined_styles">
+				     <h5>Цвет шаблона</h5>
+                     <!-- MODULE #3 -->
+                     <a href="maincolors" class="styleswitch"><img src="switcher/images/maincolors.png" alt="maincolors"></a>		
+                     <a href="tropicalpet" class="styleswitch"><img src="switcher/images/tropical.png" alt="tropical"></a>		
+                     <a href="sweetpet" class="styleswitch"><img src="switcher/images/sweet.png" alt="sweet"></a>
+					 <a href="delicatepet" class="styleswitch"><img src="switcher/images/delicate.png" alt="delicate"></a>	
+					 <a href="bluepet" class="styleswitch"><img src="switcher/images/bluepet.png" alt="blue"></a>						 
+                  </div>	
+				     <!-- Button -->	
+				  <a href="elements.html" class="btn btn-sm btn-primary mt-4"><i class="fab fa-elementor"></i> Элементы шаблона</a>
+				  <!-- <a href="https://github.com/domsharika" class="btn btn-sm btn-dark mt-4"><i class="fab fa-github"></i> View Source</a> -->
+
+				  <a href="https://github.com/domsharika" target="_blank" class="btn-mktg arrow-target-mktg" style="margin-top:10px;">
+                  <i class="fab fa-github" style="color:#fff;"></i> View Source<svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="24" height="24" viewBox="0 0 16 16" fill="none"><path fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path><path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                  </a>
+
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end form_holder -->
+      </div>
+      <!-- end demo_changer -->
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="bounce1"></div>
+         </div>
+      </div>
+      <!-- Preloader ends -->
+      <a href="" class="close-navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      </a>
+      <nav class="navbar navbar-expand-xl navbar-custom fixed-top p-0">
+         <div class="container">
+            <div class="navbar-brand navbar-brand-centered page-scroll">
+               <a href="index.html">
+                  <!-- logo  -->
+                  <img src="img/logo-header-outline.png" class="img-responsive" alt="">
+               </a>
+            </div>
+			 <!-- Hamburger menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+			 <!-- /Hamburger menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Главная</a>
+                  </li>
+				  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     О нас
+                     </a>
+					 <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <li class="dropdown-item"> <a href="about.html">О приюте</a></li>
+                        <li class="dropdown-item"><a href="gallery.html">Фото</a></li>
+						<li class="dropdown-item"><a href="video.html">Видео</a></li>
+						<li class="dropdown-item"><a href="testimonials.html">Отзывы</a></li>
+                     </ul> 
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Инфо
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <li class="dropdown-item"><a href="rules.html"><i class="fas fa-exclamation-circle fa-lg" style="color: #fdfcfc;"></i> Правила</a></li>
+                        <li class="dropdown-item"><a href="faq.html">Вопросы-ответы</a></li>
+                        <li class="dropdown-item"><a href="partners.html">Наши друзья</a></li>
+                        <li class="dropdown-item"><a href="goods.html">Товары</a></li>
+						<li class="dropdown-item"><a href="blog.html">Блог</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <ul class="navbar-nav navbar-right">
+				  <li class="nav-item">
+                     <a class="nav-link" href="pets.html">Питомцы</a>
+                  </li>
+				  <li class="nav-item">
+                     <a class="nav-link" href="help.html">Помощь</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Контакты</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+	   <!-- /navbar ends -->
+	   <!-- Full Page Image Background Slider -->
+<div class="slider-container">
+   <!-- Controls -->
+   <div class="slider-control left inactive"></div>
+   <div class="slider-control right"></div>
+   <ul class="slider-pagi"></ul>
+   <!--Slider -->
+   <div class="slider">
+      <!-- Slide 0 -->
+      <div class="slide slide-0 active" style="background-image:url('img/slide0.jpg')">
+         <div class="slide__bg"></div>
+         <div class="slide__content my-auto">
+            <div class="slide__overlay">
+            </div>
+            <!-- slide text-->
+            <div class="slide__text">
+               <h1 class="slide__text-heading">Поиск дома</h1>
+               <div class="hidden-mobile">
+                  <p class="lead">Мы отдаём животных здоровыми, привитыми, стерилизованными и социализированными</p>
+                  <a href="#" class="btn btn-default">подробнее</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Slide 1 -->
+      <div class="slide slide-1" style="background-image:url('img/slide1.jpg')">
+         <div class="slide__bg"></div>
+         <div class="slide__content">
+            <div class="slide__overlay">
+            </div>
+            <!-- slide text-->
+            <div class="slide__text">
+               <h1 class="slide__text-heading">Подготовка</h1>
+               <div class="hidden-mobile">
+                  <p class="lead">Мы расскажем вам об индивидуальных особенностях каждого нашего питомца</p>
+                  <a href="#" class="btn btn-default">подробнее</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide slide-2" style="background-image:url('img/slide2.jpg')">
+         <div class="slide__bg"></div>
+         <div class="slide__content">
+            <div class="slide__overlay">
+            </div>
+            <!-- slide text-->
+            <div class="slide__text">
+               <h1 class="slide__text-heading">Поддержка</h1>
+               <div class="hidden-mobile">
+                  <p class="lead">Мы поможем вам решить проблемы, которые у вас могут возникнуть</p>
+                  <a href="#" class="btn btn-default">подробнее</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--/Slide2 -->
+   </div>
+   <!--/Slider-->
+</div>
+<!--/ Slider ends -->
+<!-- SVG Curve Up -->
+<svg id="curveUp" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#fff">
+   <path d="M0 100 C 20 0 50 0 100 100 Z"/>
+</svg>
+<!-- Section Services-index -->
+<section id="services-index">
+   <!-- container -->
+   <div class="container">
+      <div class="section-heading">
+         <h1 id="main-title" style="font-family: 'Mistral', cursive;">«ДОМ ДЛЯ ШАРИКА»</h1>
+		 <h6 style="font-size:2em;">Частный домашний приют для животных</h6>
+      </div>
+      <!-- /section-heading-->
+      <div class="col-lg-10 offset-lg-1 text-center">
+	  
+<!-- ЦИТАТА -->  
+<div class="quote-chat">
+  <div class="quote-profile">
+      <img class="quote-chat-img" src="img/avatar.jpg" alt="">
+  </div>
+  <div class="quote-message">
+     Не смей давать надежду, если не сможешь её оправдать. Прикоснулся к душе - и ты уже за неё в ответе!
+  </div>
+  <div class="quote-user">
+     «Дом для Шарика»
+  </div>
+</div>
+<!-- /ЦИТАТА -->   
+
+         <p style="color:#000;font-weight:600;">
+		 Наш домашний приют живёт обычной жизнью - той, которой живут домашние любимцы во многих семьях.
+         Разница лишь в том, что наши подопечные здесь находятся временно, и их у нас много: количество наших хвостиков - собак и кошек - уже год держится в районе 80.
+         Конечно, животные не понимают, что это ещё не их постоянный дом... И мы очень хотим, чтобы у КАЖДОГО из них был СВОЙ ДОМ!
+         Хотя каждый раз нам всё тяжелее расставаться с нашими питомцами - чувствуешь себя немножко предателем. Но мы очень надеемся, что в СВОИХ семьях им будет лучше!
+		 </p>
+      </div>
+      <!-- /col-->
+   </div>
+   <!-- /container-->
+   <div class="container-fluid bg-pattern margin1"  data-bottom-top="background-position: 0px 70%,99% 70%;"
+      data-top-bottom="background-position: 0px -50%,99% -50%;">
+      <div class="container">
+         <div class="row p-3">
+            <!-- Services -->
+<div class="slider-3">
+   <!-- Feature Box 1  -->
+   <div class="col-12">
+      <div class="box_icon m-3">
+         <div class="icon">
+            <!-- icon -->
+            <div class="image"> <!-- IMG 500x400 -->
+               <img src="img/news/sos.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="info">
+               <h4>Наши дорогие настоящие друзья!</h4>
+               <p>Все те, 5 000 человек, которые изо дня в день читают наши новости и...</p>
+               <!-- Button-->
+               <a class="btn glightbox4" href="#inline-example1" data-glightbox="width: 700; height: auto;" >далее</a>
+            </div>
+         </div>
+      </div>
+      <!-- /box_icon -->
+   </div>
+   <!-- /col-12 ends -->
+   <!-- Feature Box 2  -->
+   <div class="col-12">
+      <div class="box_icon m-3">
+         <div class="icon">
+            <!-- icon -->
+            <div class="image">
+               <img src="img/news/cyberbullying.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="info">
+               <h4>Запретим кибербуллинг приюта</h4>
+               <p>ПРЕКРАТИТЕ ТРАВИТЬ ШАРИКОВ!<br>
+			   Подпиши петицию: <a href="https://chng.it/ZJqxzQywCj" target="_blank">chng.it/ZJqxzQywCj</a></p>
+               <!-- Button-->
+               <a class="btn glightbox4" href="#inline-example2" data-glightbox="width: 700; height: auto;" >далее</a>
+            </div>
+         </div>
+      </div>
+      <!-- /box_icon -->
+   </div>
+   <!-- /col-12 ends -->
+   <!-- Feature Box 3 -->
+   <div class="col-12">
+      <div class="box_icon m-3">
+         <div class="icon">
+            <!-- icon -->
+            <div class="image">
+               <img src="img/news/den-100-2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="info">
+               <h4>«День стольника»!</h4>
+               <p>Это день, когда вы, совершив маленький поступок, можете решить судьбу живых душ!</p>
+               <!-- Button-->
+               <a class="btn glightbox4" href="#inline-example3" data-glightbox="width: 700; height: auto;" >далее</a>
+            </div>
+         </div>
+      </div>
+      <!-- /box_icon -->
+   </div>
+   <!-- /col-12 ends -->
+   <!-- Feature Box 4  -->
+   <div class="col-12">
+      <div class="box_icon m-3">
+         <div class="icon">
+            <!-- icon -->
+            <div class="image">
+               <img src="img/news/geptral.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="info">
+               <h4>Нам всегда нужны лекарства</h4>
+               <p>Мы будем благодарны за поддержку наших старичков и больных, за любую помощь.</p>
+               <!-- Button-->
+               <a class="btn glightbox4" href="#inline-example4" data-glightbox="width: 700; height: auto;" >далее</a>
+            </div>
+         </div>
+      </div>
+      <!-- /box_icon -->
+   </div>
+   <!-- /col-12 ends -->
+   <!-- Feature Box 5  -->
+   <div class="col-12">
+      <div class="box_icon m-3">
+         <div class="icon">
+            <!-- icon -->
+            <div class="image">
+               <img src="https://via.placeholder.com/500x400" class="img-fluid" alt="">
+            </div>
+            <div class="info">
+               <h4>Инфо 5</h4>
+               <p>ВАШ ТЕКСТ.</p>
+               <!-- Button-->
+               <a class="btn glightbox4" href="#inline-example5" data-glightbox="width: 700; height: auto;" >далее</a>
+            </div>
+         </div>
+      </div>
+      <!-- /box_icon -->
+   </div>
+   <!-- /col-12 ends -->
+</div>
+<!-- /slider -->         </div>
+         <!-- /row -->
+      </div>
+      <!-- /container -->
+   </div>
+   <!-- /container-fluid-->
+</section>
+<!-- Section About-index -->
+<section id="about-index" class="bg-lightcolor1">
+   <div class="container">
+      <div class="section-heading text-center">
+         <h2>О нас</h2>
+      </div>
+      <!-- row -->
+      <div class="row">
+         <div class="col-lg-7">
+            <h3>Наши трудовые будни</h3>
+            <p>
+               Pat a lorem ipsuet nibh fusce mollis imperdie tlorem ipuset phas ellus ac sodales Lorem ipsum dolor  Phas ellus ac sodales felis tiam non metus.
+               vest ibulum orci eget usce mollis imperdiet interdum donec eget metus auguen unc vel lorem ispuet Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id iprum omnis.
+            </p>
+            <!-- Accordion -->
+<div class="accordion mt-4" id="accordion1">
+   <!-- accordion item -->
+   <div class="accordion-item">
+      <p class="accordion-header" id="headingOne">
+         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         ПОДЗАГОЛОВОК 1
+         </button>
+      </p>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion1">
+         <div class="accordion-body">
+            <p>Patatemp dolupta orem retibusam qui commolu 
+               les felis tiam non metus ali quam eros Pellentesque turpis lectus, placerat a ultricies a, posuere a nibh. Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies, vest ibulum orci eget, viverra elit. 
+            </p>
+         </div>
+      </div>
+   </div>
+   <!-- accordion item -->
+   <div class="accordion-item">
+      <p class="accordion-header" id="headingTwo">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         ПОДЗАГОЛОВОК 2
+         </button>
+      </p>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion1">
+         <div class="accordion-body">
+            <p>Patatemp dolupta orem retibusam qui commolu 
+               les felis tiam non metus ali quam eros Pellentesque turpis lectus, placerat a ultricies a, posuere a nibh. Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies, vest ibulum orci eget, viverra elit. 
+            </p>
+         </div>
+      </div>
+   </div>
+   <!-- accordion item -->
+   <div class="accordion-item">
+      <p class="accordion-header" id="headingThree">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         ПОДЗАГОЛОВОК 3
+         </button>
+      </p>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion1">
+         <div class="accordion-body">
+            <p>Patatemp dolupta orem retibusam qui commolu 
+               les felis tiam non metus ali quam eros Pellentesque turpis lectus, placerat a ultricies a, posuere a nibh. Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies, vest ibulum orci eget, viverra elit. 
+            </p>
+         </div>
+      </div>
+   </div>
+   <!-- /accordion item -->
+</div>
+<!-- /.accordion -->         </div>
+         <!-- /col-lg-7-->
+         <!-- Parallax object -->
+         <div class="parallax-object1 hidden-sm d-none d-lg-block"  data-100-start="right: 0%;" 
+            data-center-bottom="right:30%;"  >
+            <!-- Image -->
+            <img src="img/illustrations/petbowl.png" alt="">
+         </div>
+         <!-- /parallax-object1-->
+         <div class=" col-lg-5" >
+            <img src="img/about-index.png" class="img-fluid" alt="">
+         </div>
+         <!-- /col-lg-5-->
+      </div>
+      <!-- /row -->
+      <div class="margin1 text-center">
+               <div class="card lightcolor">
+			      <div class="row">
+                  <!-- item 1 -->
+                  <div class="features col-lg-3">
+                     <div class="col-12 big-icon">
+                        <!-- icon -->
+                        <i class="flaticon-veterinarian-hospital"></i>
+                     </div>
+                     <div class="col-12">
+                        <h5>Вет. помощь</h5>
+                        <p>Aenean lacinia bibendum nulla sed consectetur ras mattis consectetur purus sit amet fermentum sociis natoque penatibus et magnis.</p>
+                     </div>
+                  </div>
+                  <!-- /col-lg-3 -->
+                  <!-- item 2 -->
+                  <div class="features col-lg-3">
+                     <div class="col-12 big-icon">
+                        <!-- icon -->
+                        <i class="flaticon-animals-3"></i>
+                     </div>
+                     <div class="col-12">
+                        <h5>Спец. уход</h5>
+                        <p>Aenean lacinia bibendum nulla sed consectetur ras mattis consectetur purus sit amet fermentum sociis natoque penatibus et magnis.</p>
+                     </div>
+                  </div>
+				  <!-- item 3 -->
+                  <div class="features col-lg-3">
+                     <div class="col-12 big-icon">
+                        <!-- icon -->
+                        <i class="flaticon-dog-in-front-of-a-man"></i>
+                     </div>
+                     <div class="col-12">
+                        <h5>Социализация</h5>
+                        <p>Aenean lacinia bibendum nulla sed consectetur ras mattis consectetur purus sit amet fermentum sociis natoque penatibus et magnis.</p>
+                     </div>
+                  </div>
+                  <!-- /col-lg-3 -->
+				  <!-- item 4 -->
+                  <div class="features col-lg-3">
+                     <div class="col-12 big-icon">
+                        <!-- icon -->
+                        <i class="flaticon-dog-and-pets-house"></i>
+                     </div>
+                     <div class="col-12">
+                        <h5>Поиск дома</h5>
+                        <p>Aenean lacinia bibendum nulla sed consectetur ras mattis consectetur purus sit amet fermentum sociis natoque penatibus et magnis.</p>
+                     </div>
+                  </div>
+                  <!-- /col-lg-3 -->
+                  <!-- /col-lg-3 -->
+               </div>
+               <!-- /card -->
+			    </div>
+            <!-- /row -->
+            </div>
+      <!-- /row -->
+   </div>
+   <!-- /container -->
+</section>
+<!-- /section ends --><div class="container-fluid">
+   <!-- Section Call to action -->
+   <section class="call-to-action small-section bg1" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -80px;" data-bottom-top="background-position: 50% 80px;">
+      <div class="container text-center">
+         <!-- card -->
+         <div class="col-lg-5 bg-darkcolor card">
+            <div class="col-lg-12">
+               <h4>Подписка на рассылку</h4>
+               <p>Для рассылки можно использовать специальный Сервис, например, <a href="https://sendsay.ru/rates" target="_blank">Sendsay</a> (бесплатно 200 email-адресов).</p>
+               <!-- Form -->				
+               <div id="mc_embed_signup" class="margin1">
+                  <!-- your form adresss in the line bellow -->
+                  <form action="https://yourlist.us12.list-manage.com/subscribe/post?u=04e646927a196552aaee78a7b&id=111" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                     <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                           <div class="input-group">
+                              <input class="form-control input-lg required email" type="email" value="" name="EMAIL" placeholder="Ваш адрес эл. почты" id="mce-EMAIL">
+                              <span class="input-group-btn">
+                              <button class="btn" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Подписаться</button>
+                              </span>
+                           </div>
+                           <!-- Subscription results -->
+                           <div id="mce-responses" class="mailchimp">
+                              <div class="alert alert-danger response" id="mce-error-response"></div>
+                              <div class="alert alert-success response" id="mce-success-response"></div>
+                           </div>
+                        </div>
+                        <!-- /mc-fiel-group -->									
+                     </div>
+                     <!-- /mc_embed_signup_scroll -->
+                  </form>
+                  <!-- /form ends -->								
+               </div>
+               <!-- /mc_embed_signup -->
+            </div>
+            <!-- /col-lg -->
+         </div>
+         <!-- /col-lg -->
+      </div>
+      <!-- /container -->
+   </section>
+   <!-- /Section ends -->
+</div>
+<!-- /container-fluid --><!-- Section Reviews -->
+<section id="reviews">
+   <div class="container">
+      <div class="section-heading text-center">
+         <h2>Отзывы</h2>
+      </div>
+      <!-- Parallax object -->
+      <div class="parallax-object2 hidden-sm d-none d-lg-block hidden-md" 
+         data-100-start="transform:rotate(-0deg); left:20%;" 
+         data-top-bottom="transform:rotate(-370deg);">
+         <!-- Image -->
+         <img src="img/illustrations/toy.png" alt="">
+      </div>
+      <!-- /parallax-object -->
+      <div class="col-lg-9 offset-lg-3">
+         <!-- Reviews -->
+<div class="slider-3 mt-5 p-2">
+   <!-- review 1 -->
+   <div class="review">
+      <div class="col-12 p-3">
+         <!-- caption -->
+         <div class="review-caption">
+            <h5>Ирина Л.</h5>
+            <div class="small-heading">
+               16 июня 2020
+            </div>
+            <blockquote>
+               Необычный приют, а точнее не приют, а просто большая семья в небольшом частном домике. Причём хозяева занимают меньшую территорию, чем подопечные их хвостики...
+            </blockquote>
+         </div>
+         <!-- Profile image -->
+         <div class="review-profile-image">
+            <img src="img/review1.jpg" alt=""/>
+         </div>
+         <!--/review profile image -->
+      </div>
+      <!-- /col-12 ends -->
+   </div>
+   <!-- /review-->
+   <!-- review 2 -->
+   <div class="review">
+      <div class="col-12 p-3">
+         <!-- caption -->
+         <div class="review-caption">
+            <h5>Ольга Н.</h5>
+            <div class="small-heading">
+               16 июня 2020
+            </div>
+            <blockquote>
+               Была в приюте! И ещё хочу. Атмосфера не забываемая! Кругом животные, цветы, люди с доброй душой❤. Все животные ухожены, накормлены и самое главное счастливы.
+            </blockquote>
+         </div>
+         <!-- Profile image -->
+         <div class="review-profile-image">
+            <img src="img/review2.jpg" alt=""/>                      
+         </div>
+         <!--/review profile image -->
+      </div>
+      <!-- /col-12 ends -->
+   </div>
+   <!-- /review-->
+   <!-- review 3 -->
+   <div class="review">
+      <div class="col-12 p-3">
+         <!-- caption -->
+         <div class="review-caption">
+            <h5>Юзер 1</h5>
+            <div class="small-heading">
+               1 января 2022
+            </div>
+            <blockquote>
+               Patatemp dolupta orem retibusam qui commolu 
+               Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies, 
+               vest ibulum orci eget, viverra.
+            </blockquote>
+         </div>
+         <!-- Profile image -->
+         <div class="review-profile-image">
+            <img src="img/review-user.png" alt=""/>                       
+         </div>
+         <!--/review profile image -->
+      </div>
+      <!-- /col-12 ends -->
+   </div>
+   <!-- /review-->
+   <!-- review 4 -->
+   <div class="review">
+      <div class="col-12 p-3">
+         <!-- caption -->
+         <div class="review-caption">
+            <h5>Юзер 2</h5>
+            <div class="small-heading">
+               1 января 2022
+            </div>
+            <blockquote>
+               Patatemp dolupta orem retibusam qui commolu 
+               Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies, 
+               vest ibulum orci eget, viverra.
+            </blockquote>
+         </div>
+         <!-- Profile image -->
+         <div class="review-profile-image">
+            <img src="img/review-user.png" alt=""/>                       
+         </div>
+         <!--/review profile image -->
+      </div>
+      <!-- /col-12 ends -->
+   </div>
+   <!-- /review-->
+   <!-- review 4 -->
+   <div class="review">
+      <div class="col-12 p-3">
+         <!-- caption -->
+         <div class="review-caption">
+            <h5>Юзер 3</h5>
+            <div class="small-heading">
+               1 января 2022
+            </div>
+            <blockquote>
+               Patatemp dolupta orem retibusam qui commolu 
+               Fusce mollis imperdiet interdum donec eget metus auguen unc vel mauris ultricies, 
+               vest ibulum orci eget, viverra.
+            </blockquote>
+         </div>
+         <!-- Profile image -->
+         <div class="review-profile-image">
+            <img src="img/review-user.png" alt=""/>                       
+         </div>
+         <!--/review profile image -->
+      </div>
+      <!-- /col-12 ends -->
+   </div>
+   <!-- /review-->
+</div>
+<!-- /slider -->      </div>
+      <!-- /col -->
+   </div>
+   <!-- /.container -->
+</section>
+<!-- /Section ends -->
+    <!-- callout-->		   
+      <section class="callout container-fluid p-5 p-lg-0">
+         <!-- row -->
+         <div class="row">
+            <div class="col-xl-8 col-lg-12 text-center text-xl-start p-0" data-start="right: 5%;" 
+               data-center="right:0%;">
+               <!-- image  -->
+               <img src="img/treatment.jpg" class="img-fluid img-rounded" alt="">
+            </div>
+            <!-- text box  -->
+            <div class="callout-box col-xl-6 offset-xl-5 col-lg-12 bg-darkcolor"  data-start="left: 5%;" 
+               data-center="left:0%;">
+               <h3>Мы лечим животных</h3>
+               <p>К нашему приюту пристроен стационар для ухода за больными и для стерилизации животных.</p>
+               <a href="contact.html" class="btn">Связаться с нами</a>
+            </div>
+            <!-- /callout-box  -->
+         </div>
+         <!-- /row -->
+      </section>
+      <!-- /callout -->   <!-- Section Stats -->	
+      <section id="stats" class="bg-lightcolor2">
+         <div class="section-heading text-center">
+               <h2>Цифры</h2>
+            </div>
+         <div class="container">
+            <div class="col-lg-9">
+               <div class="row text-center">
+   <div class="col-lg-6 col-xl-3">
+      <!-- Number 1 -->
+      <div class="numscroller" data-slno='1' data-min='0' data-max='65' data-delay='20' data-increment="19">0</div>
+      <h5>Собак</h5>
+   </div>
+   <div class="col-lg-6 col-xl-3">
+      <!-- Number 2 -->
+      <div class="numscroller" data-slno='1' data-min='0' data-max='15' data-delay='10' data-increment="9">0</div>
+      <h5>Кошек</h5>
+   </div>
+   <div class="col-lg-6 col-xl-3">
+      <!-- Number 3 -->
+      <div class="numscroller" data-slno='1' data-min='0' data-max='37' data-delay='20' data-increment="19">0</div>
+      <h5>Вылечено</h5>
+   </div>
+   <div class="col-lg-6 col-xl-3">
+      <!-- Number 4 -->
+      <div class="numscroller" data-slno='1' data-min='0' data-max='20' data-delay='10' data-increment="9">0</div>
+      <h5>Устроено</h5>
+   </div>
+</div>
+<!-- /row -->
+</div>
+         </div>
+		   <!-- /container-->
+      </section>
+      <!-- Section Ends--><!-- Section Contact  -->
+<section id="contact-index">
+   <div class="container">
+      <div class="section-heading">
+         <h2>Наши контакты</h2>
+      </div>
+      <div class="col-xl-6 offset-xl-6">
+         <!-- contact info -->
+         <h4>Для связи</h4>
+         
+<div class="call-block">					 
+<div class="call-button" style="margin: 0 auto 0 0;">
+  <a href="#">
+    <div class="call-icon"></div>
+    <div class="call-txt"></div>
+    <p>+7 (904) 398-37-33<br>+7 (908) 167-28-46</p>
+  </a>  
+</div>
+</div>
+		 
+		 <ul class="list-inline">
+            <li><i class="fa fa-envelope"></i><a href="mailto:tatasila2001@yandex.ru">tatasila2001@yandex.ru</a></li>
+            <!-- <li><i class="fa fa-phone margin-icon"></i>Звоните +7 (904) 398-37-33</li> -->
+            <li><i class="fa fa-map-marker margin-icon"></i>Нижегородская обл., г. Володарск</li>
+         </ul>
+         <h4 class="margin1">Отправить сообщение</h4>
+         <!-- Form Starts -->
+         <div id="contact_form">
+            <div class="form-group">
+               <label>Имя<span class="required">*</span></label>
+               <input type="text" name="name" class="form-control input-field" required="">                    
+               <label>Эл. почта <span class="required">*</span></label>
+               <input type="email" name="email" class="form-control input-field" required="">           
+               <label>Код</label>
+               <input type="text" name="subject" class="form-control input-field" required="">                            
+               <label>Текст сообщения<span class="required">*</span></label>
+               <textarea name="message" id="message" class="textarea-field form-control" rows="3"  required=""></textarea>
+            </div>
+            <button type="submit" id="submit_btn" value="Submit" class="btn center-block">Отправить</button>
+         </div>
+         <!-- Contact results -->
+         <div id="contact_results"></div>
+
+<!-- <script src="js/google-form.js"></script>
+https://github.com/jsdevel/google-form -->
+
+	  </div>
+      <!-- /col-xl-->
+   </div>
+   <!-- /container -->
+</section>
+<!-- /Section ends -->
+<div class="container-fluid">
+   <!-- map-->
+   <div id="map-canvas"></div>
+</div>
+
+<!-- Footer -->	
+<footer>
+   <!-- Contact info -->
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4 text-center">
+            <!-- Footer logo -->
+            <img src="img/logo.png" alt="" class="center-block img-responsive">
+         </div>
+         <!-- /.col-lg-4 -->
+         <div class="col-lg-4 text-center res-margin">
+            <ul class="list-unstyled">
+               <li><i class="fa fa-phone"></i>+7 (904) 398-37-33</li>
+               <li><i class="fa fa-envelope"></i>Email: <a href="mailto:tatasila2001@yandex.ru">tatasila2001@yandex.ru</a></li>
+               <li><i class="fa fa-map-marker"></i>Россия, Нижегородская обл., г. Володарск</li>
+			   <li><a href="https://www.sberbank.com/ru/person/remittance/beznal_cc_rus" target="_blank">Карта Сбер: 6390 0242 9037292707</a></li>
+			   <li><a href="https://yoomoney.ru/" target="_blank">Яндекс.Деньги (ЮМоney): 410011821301599</a></li>
+			   <li><a href="https://qiwi.com/" target="_blank">QIWI Кошелёк: +79043983733</a></li>
+			   <li><a href="https://www.paypal.com/paypalme/domcharika" target="_blank">PayPal: paypal.me/domcharika</a></li>
+            </ul>
+         </div>
+         <!-- /.col-lg-4 -->
+         <div class="col-lg-4 text-center res-margin">
+            <h5>Мы в соцсетях</h5>
+            <!--Social icons -->
+            <div class="social-media">
+               <a href="https://vk.com/domcharika" target="_blank"><i class="fab fa-vk"></i></a>
+			   <a href="https://ok.ru/domcharika" target="_blank"><i class="fab fa-odnoklassniki"></i></a>
+               <a href="https://t.me/s/domcharika" target="_blank"><i class="fab fa-telegram"></i></a>
+               <a href="https://www.youtube.com/@dom_charika-52_rus/featured" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+         </div>
+         <!-- /.col-lg-4 -->
+      </div>
+      <!-- /row -->
+   </div>
+   <!-- /.container -->
+   <!-- Credits-->
+   <div class="credits col-lg-12 text-center">
+      Copyright © 2023. Дизайн Ингрид Кун. «Дом для Шарика» - НН - Володарск
+      <!-- Go To Top Link -->
+      <div class="hidden-sm d-none d-lg-block">
+         <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+      </div>
+   </div>
+   <!-- /credits -->
+</footer>
+<!-- /footer ends -->
+
+<!-- GLightbox КОНТЕНТ -->
+    <div id="inline-example1" style="display: none;">
+        <div class="inline-inner">
+            <h4 class="text-center">Наши дорогие настоящие друзья!</h4>
+<p>Уважаемые подписчики группы! Все те, 5 000 человек, которые изо дня в день читают наши новости и...<br>
+И решают, что их присутствие в группе - это и есть помощь.</p>
+<p>У нас в группе нет ни одного накрученного участника, каждый сам когда-то решил присоединиться к нам - нам почти 10 лет, в других группах с таким стажем подписчиков в сотни раз больше! Поэтому мы ценим каждого нового вступившего, полагая, что человек не для праздного любопытства присоединился к нам.</p>
+<p>На деле же получается, что из <strong>5 300 человек</strong> - живых, думающих - реально помогают нам и поддерживают всего <strong>300 человек</strong>! Назвать по именам?</p>
+<p>Эти 300 друзей - это наш золотой фонд, наша поддержка и надежда! Силами всего 300 людей содержатся почти 150 животных - шариков и денисовцев. Благодаря этим людям животные сыты, получают лечение, находят дома!</p>
+<p><span style="font-size:1.4em;font-weight:700;color:red;">&#33;&#33;&#33;</span> Моё обращение сегодня именно к тем остальным 5 000 человекам.<br>
+<strong>ДЛЯ ЧЕГО ВЫ ЗДЕСЬ?..</strong></p>
+<p>Никогда не думала, что буду писать это.... Не хотела, честно! Но придётся...</p>
+<p>Если каждый из 5 000 человек, просто &quot;смотрящих&quot;, <strong>1 раз в 2 месяца&nbsp;переведут по 100 руб.</strong>, мы сможем кормить всех животных 2 МЕСЯЦА!!!☝☝☝<br>
+<strong>5000 * 100 руб. = 500 000 руб.<br>
+ВСЕГО 50 руб. В МЕСЯЦ</strong></p>
+<p>Если каждый из 5000 сделает репост раз в месяц, то наших шариков увидят <strong>ПОЛМИЛЛИОНА</strong> человек!<br>
+<strong>ВСЕГО 1 РЕПОСТ</strong></p>
+<p><strong>ТАК ЗАЧЕМ ВЫ ЗДЕСЬ???</strong></p>
+<p>Сейчас нам нечем кормить животных! Не на что лечить! Пристрой стоит... Денисовцы едят... костный фарш.</p>
+<p>Мы не просим помогать нам только лишь деньгами, не всегда деньги могут решить проблему. У нас, в Володарске, нам просто негде купить корм - здесь в магазинах не продают мешками. И чтобы купить два мешка - на один день - надо ехать в Дзержинск!<br>
+А там даже чаппи стоит уже больше 2500 руб.<br>
+Поэтому просим помочь и кормами для собак и кошек, и ещё - репостами!</p>
+<p>У нас осталось 2 мешка корма для собак... У кошек вообще нет ничего.<br>
+Заказали 20 мешков КОРВУДА, это нам на 10 дней.<br>
+Но даже за эти 20 мешков надо отдать <strong>54 000 руб.</strong>, которые я просто незнаю где взять... А корм приедет уже к началу следующей недели.</p>
+<p>Нам очень нужен корм для собак и для кошек - его можно заказать для нас на озоне или на Вайлдберриз, у нас есть пункты выдачи!<br>
+Можно привезти самим или оставить на наших точках сбора!</p>
+<p>Мы с Сашей вдвоем просто физически не сможем заработать столько, чтобы хотя бы просто прокормить всех тех, кого кому-то когда-то стало жалко....<br>
+Сейчас все эти бедолаги сыты и в безопасности, получают лечение и ласку...<br>
+Мы делаем для них все и даже больше, насколько хватает наших сил, моральных и физических!<br>
+<strong>ВАС МЫ ПРОСИМ ТОЛЬКО ПОМОЧЬ НАМ КОРМАМИ И МАТЕРИАЛЬНО!!!</strong><br>
+<strong>50 РУБ В МЕСЯЦ...</strong><br>
+<strong>1 КГ КОРМА В МЕСЯЦ...</strong><br>
+<strong>1 РЕПОСТ В МЕСЯЦ...</strong></p>
+<p><strong>НЕ СЛОЖНО ВЕДЬ?</strong></p>
+<p><strong>ПОМОГАЙТЕ, РЕБЯТА!!!</strong><br>
+<strong>БЕЗ ВАС НАМ ТОЧНО НЕ ВЫЖИТЬ</strong></p>
+        </div>
+    </div>
+
+    <div id="inline-example2" style="display: none;">
+        <div class="inline-inner">
+            <h4 class="text-center">Запретим кибербуллинг приюта «Дом для Шарика»</h4>
+<h6 class="text-center">Почему эта петиция важна</h6>
+<p>Есть на нашей Нижегородской земле в г. Володарск частный приют для бездомных животных, которому уже более 10ти лет. Приют называется Дом для Шарика, а его обитателей ласково называют шариками. На сегодняшний день в приюте 80 собак и 20 кошек, +/-, кого-то удается пристроить в хорошие руки, тут же появляются новые подопечные&hellip; Всё бремя содержания на своих плечах несёт одна семья Шахиных-Силантьевых: Татьяна, Александр, сын Роман, на подмоге семья дочери Екатерины. Всё хозяйство - своими силами, конечно не без помощи отзывчивых, добрых людей, которые на протяжении всех этих долгих лет поддерживают шариков и помогают кто чем может. На территории участка, где обычно у всех огород и грядки, Александр (муж Татьяны), опять же не без помощи рукастых помощников, поставил вольеры, будки, огородил небольшую территорию для выгула. Построили вольер для кошек с выгулом , всё очень красиво, продуманно, с большой любовью к животным. В приюте животные оказываются по разным причинам: отказались хозяева, пострадали от травм и болезней, животных отбили от живодеров, были и есть собаки из усыпалок Севастополя, Бобруйска и Якутии.<br>
+Все животные привиты, стерилизованы, обработаны от паразитов, все с ветпаспортами, около 20ти животных старички и инвалиды, которые нуждаются в ежедневном медицинском уходе и наблюдении. К приюту пристроен стационар для ухода за больными и для стерилизации животных.</p>
+<p>Вся жизнь приюта, судьба пристроенных животных, все новости, отчёт о поступлениях и тратах есть в <a href="https://vk.com/domcharika" target="_blank">группе</a> социальной сети VK, которая очень скрупулезно ведется администраторами группы, постоянно можно видеть эфиры, где Татьяна показывает и рассказывает о том, что нового в приюте, как живут подопечные. Семья всегда рада гостям, приезжают целыми группами из школ, организаций, собаки участвуют ежегодно в выставках в ринге беспородных животных , получают награды и благодаря этому имеют больше шансов на пристрой в семью. Дом для Шарика помогает ещё одному частному мини-приюту в д. Денисово Владимирской области, который из последних сил тащит на себе одинокая женщина, там 25 собак и 15 кошек, можно сказать это филиал Дома для Шарика) Никаких официальных спонсоров, меценатов, господдержки у приюта нет. Вся помощь идёт от добрых и неравнодушных людей.</p>
+<p>Но есть и такие люди, злые, негативные, которые думают, что приют для животных &mdash; золотая жила, источник обогащения. За последнее два месяца Дом для Шарика подвергается травле или, как модно сейчас говорить, кибербуллингу. Два человека : Геннадий Шистеров и Наталья Сазанова объединились для того, чтобы испортить жизнь хозяев приюта, испортить жизнь подопечных приюта, а также оскорбить всех помощников приюта в угоду своим аморальным целям. Шистеров имеет самое непосредственное отношение к ВС РФ. Прикрываясь своим тяжелым ранением, участием в СВО, статусом ветерана, он считает, что может безнаказанно травить, оскорблять, провоцировать честных и достойных людей. Он специально старается задеть и спровоцировать Силантьеву Татьяну, её семью, её помощников, с тем, чтобы получить негативную реакцию и обратиться в правоохранительные органы с заявлением о его оскорблении. Считаем, что его статус не дает ему право заниматься кибербуллингом. Он оскорбляет самих подопечных животных, унизительно называя Дом для Шарика &mdash; Домом для лошарика. Для травли Силантьевой Татьяны и Дома для Шарика была специально создана группа в социальной сети VK, где он унижает, оскорбляет, обвиняет Татьяну в нецелевом расходовании денежных средств. Заметим, он НИ РАЗУ лично не был в Доме для Шарика, несмотря на то, что его приглашали приехать и своими глазами увидеть как живут подопечные Татьяны и её семья. Вместо этого он с дивана делает какие-то свои не совсем здоровые умозаключения и распространяет их в сети по различным группам и пользователям VK. Шистеров считает, что может сделать вывод о том, сколько должна стоить хорошая будка для собаки, собачий корм, сколько денег должно тратиться на хозяйственные нужды, как и где лечить, как стерилизовать, как расходовать целевые поступления, хотя никакого отношения к волонтерской зоозащитной деятельности он &nbsp;не имеет. Он голословно обвиняет Татьяну в расходовании целевых денежных средств на личные нужды, хотя все отчеты о поступлениях и тратах есть на странице группы Дома для Шарика. Он опустился до того, что комментирует расходы личных денежных средств Татьяны, которые она тратит на своих подопечных и отчеты также выкладывает на странице группы Дом для Шарика. Какая его цель и мотив: быть может это личная обида на Татьяну и травля &mdash; это просто его месть, либо таким способом он хочет получить внимание к собственной персоне и ощутить чувства значимости в обществе, либо это просто душевное расстройство, либо ещё какая-то причина, здесь мы не можем сделать однозначный вывод. Но его травля мешает нормальной деятельности Дома для Шарика, подрывает здоровье Татьяны Силантьевой, а соответственно отражается на подопечных приюта, их здоровье. А если учесть, что на попечении Татьяны около двадцати хронически больных животных, животных после тяжелых операций, болезнь Татьяны в буквальном смысле слова может стать трагедией для инвалидов и старичков приюта, которые нуждаются в постоянном наблюдении и лечении.&nbsp;</p>
+<p>В постах г-жи Сазановой, опубликованными для всеобщего доступа, целых букет административных правонарушений и составов преступлений согласно действующему УК РФ. Уже само название &laquo;пока живут на свете дураки&raquo;- это оскорбление всех участников группы Дом для Шарика, каждого, кто хотя один раз перевел даже 1 рубль на нужды подопечных животных, или помог физически, она называет дураками. А участников группы более 5000 человек, это только в социальной сети VK. А среди помощников и участников группы уважаемые в Дзержинске и Нижнем Новгороде люди, известные в Нижегородской области ветеринарные врачи, которые ежедневно спасают, стерилизуют животных, и часто тех животных, которых бросают нерадивые хозяева. Среди &laquo;дураков&raquo; оказались такие известные в Дзержинске благотворительные организации как клуб инвалидов &laquo;Вера&raquo;, центр &laquo;Молодежные инициативы&raquo;, центр молодых семей &laquo;Клюква&raquo; которые также помогают на постоянной основе, собирают своими силами необходимое для жизни подопечных животных. Также дураками оказались школы, детские сады , дети, их родители, которые постоянно приезжают в Дом для Шарика с гостинцами помочь и пообщаться с подопечными. Но верх цинизма этой женщины проявился в том, когда она написала в обсуждениях их гнилой группы о том, что кусок мяса индейки, которые был куплен даже не на пожертвованные для приюта деньги, а на личные средства семьи, собаке Веде положили только для того, чтобы сделать фото. Веда &mdash; собака после ампутации передней лапы, она очень плохо и практически ничего не ест, и любой любящий хозяин поймёт Татьяну, как это во всём себе отказывать и покупать даже мраморную говядину, лишь бы питомец ел и поправлялся. Забавно, что г-жа Сазанова считает, что относится к волонтерам и зоозащитникам. Хотя за её заслуги травли действительных зоозащитников, догхантеры с удовольствием бы приняли её в свои ряды. Ещё г-жа Сазанова обвиняет выездных ветеринарных врачей, что при стерилизации они пользуются миорелаксантами, а не специальным наркозом, настаивает, чтобы всех животных стерилизовали в ветеринарных клиниках за сумму втрое превышающую стоимость льготной стерилизации на дому. Это уже голословные обвинения врачей в профнепригодности. Выездных ветеринарных врачей, которые мотаются даже по самым отдаленным деревням, лечат в полевых условиях и стерилизуют животных буквально за стоимость расходных средств и препаратов, а иногда и бесплатно, можно по пальцам пересчитать. И ещё, в постах Сазановой постоянная фраза &laquo;незаконная деятельность приюта&raquo;. У человека явная мания величия, она считает, что разбирается во всем: как надо содержать животных чем кормить, ещё она великий ветеринарный врач и юрист, вообщем в черепную &nbsp;коробку поместились абсолютно все знания, а что не знает, она копипастит из трудов известных профессоров ветеринарии. Жаль, что это профессор вряд ли поедет стерилизовать подвальную кошку, спасать сбитую собаку, а также делать это по десять раз за сутки. Но всё таки хочется добавить г-же Сазановой юридической грамотности и сообщить, что фраза &laquo;назаконная деятельность приюта&raquo; самая настоящая клевета. Незаконной деятельность может быть признана вступившим в законную силу решением суда.</p>
+<p>К сожалению, специальной ответственности за кибербуллинг в российском законодательстве не существует. Но мы видим в действиях Шистерова и Сазановой составы преступлений, предусмотренные ст.129 УК РФ &laquo;Клевета&raquo;, ст. 137 УК РФ &laquo;Нарушение неприкосновенности частной жизни&raquo;, ст. 5.61 КоАП РФ &laquo;Оскорбление&raquo;. Все эти преступления не должны остаться безнаказанными, потому что совершены в отношении подопечных приюта, беспомощных и практически бесправных животных, для которых Дом для Шарика &mdash; это всё, что у них осталось и только там они нужны и любимы.</p>
+<p>Мы просим не оставаться в стороне. Зло должно быть наказано! Мы просим правоохранительные органы принять меры и оградить приют от травли со стороны данных людей и привлечь их к ответственности в соответствиями с санкциями законодательства РФ.</p>
+<p style="text-align:right;">Лидия Измайлова</p>
+<ul class="custom-rules no-margin">
+<li>Мы просим каждого, кто неравнодушен к судьбам бездомных животных, в ком ещё живёт Человек и кто верит в Добро и Справедливость, <b>подписать петицию в защиту «Дома для Шарика»</b>.</li>
+<li><b>Важно!</b> Не забудьте подтвердить Вашу подпись, зайдя в Вашу эл.почту и нажав <b>«Подтвердить»</b>.</li>
+</ul>
+<div class="text-center">
+<a class="btn-u btn-u-lg rounded btn-u-red" href="https://chng.it/ZJqxzQywCj" target="_blank" role="button">Подписать петицию на change.org</a>
+</div>
+        </div>
+    </div>
+
+    <div id="inline-example3" style="display: none;">
+        <div class="inline-inner">
+            <h4 class="text-center">Сегодня особенный день - «День стольника»!</h4>
+<p>Сегодня особенный день - «День стольника»!<br>
+Это день, когда вы, совершив маленький поступок, можете решить судьбу живых душ!<br>
+Для нас этот день действительно особенный… Благодаря вашему участию в этой Акции мы можем жить… дальше жить и верить в добро, в любовь и в вас, самых добрых и неравнодушных! ❤</p>
+<p>Мы - это мама, папа и больше 100 мохнатых детей! Мы делаем все, для того, чтобы они были счастливы и ваш маленький вклад для них большой шанс на счастливую, сытную и беззаботную жизнь!</p>
+<p style="text-align:right;">С любовью и благодарностью,<br>
+Ваши Шарики <i class="fa fa-heart fa-lg" aria-hidden="true"></i></p>
+        </div>
+    </div>
+
+    <div id="inline-example4" style="display: none;">
+        <div class="inline-inner">
+            <h4 class="text-center">Лекарства</h4>
+<p>Друзья!</p>
+<p>Нам всегда нужны лекарства и препараты для животных, которые перечислены здесь.</p>
+<p>У нас много - очень много - старичков, кошек и собак, с хроническими заболеваниями, которым на постоянной основе нужны препараты для поддержания сердца, печени, почек, которые уже в силу возраста не могут ухаживать за собой, и нам нужно поддерживать в норме их шерстку, глаза, уши... Некоторых нужно часто подмывать и чистить попки и хвостики.</p>
+<p>Препараты можно купить в аптеке, или передать из своих остатков (не просроченных!), или же заказать их для нас на Озоне или в другом интернет-магазине.</p>
+<p>Мы будем благодарны за поддержку наших старичков и больных, за любую помощь!</p>
+<h5 class="sub-header">Список необходимого:</h5>
+<ul class="custom no-margin">
+<li>Алфлутоп (уколы)</li>
+<li>Биодрон</li>
+<li>Валосердин капли</li>
+<li>Везикар табл. 10 мг</li>
+<li>Верошпирон 50 мг </li>
+<li>Ветмедин 10 мг, 5 мг</li>
+<li>Га-гликан</li>
+<li>Зоокард таблетки (!!!)</li>
+<li>Канефрон</li>
+<li>Капли для отпугивания мух и комаров</li>
+<li>Отибиовин</li>
+<li>Отидез</li>
+<li>Паглюферал-3</li>
+<li>Перекись водорода</li>
+<li>ПимоПет 5 мг</li>
+<li>Препараты для печени</li>
+<li>Пропалин</li>
+<li>Стронгхолд для кошек</li>
+<li>Суролан капли</li>
+<li>Уристоп</li>
+<li>Хлоргексидин любой</li>
+<li>Цистон табл.</li>
+</ul>
+        </div>
+    </div>
+
+    <div id="inline-example5" style="display: none;">
+        <div class="inline-inner">
+            <h4 class="text-center">ВАШ ТЕКСТ</h4>
+<p>ВАШ ТЕКСТ</p>
+        </div>
+    </div>
+
+<!-- /GLightbox КОНТЕНТ -->
+
+<!-- Core JavaScript Files -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Main Js -->
+<script src="js/main.js"></script>
+<!-- Contact form -->
+<script src="js/contact.js"></script>
+<!--Other Plugins -->
+<script src="js/plugins.js"></script>
+<!-- Prefix free CSS -->
+<script src="js/prefixfree.js"></script>
+<!-- Bootstrap Select Tool (For Module #4) -->
+<script src="switcher/js/bootstrap-select.js"></script>
+<!-- All Scripts & Plugins -->
+<script src="switcher/js/dmss.js"></script>	
+<script src="switcher/js/fixes.js"></script>
+<!-- Open street maps-->
+<script src="js/map.js"></script>
+   <!-- GLightbox --> 
+    <script>
+        var lightbox = GLightbox();
+        var lightboxDescription = GLightbox({
+            selector: 'glightbox2',
+        });
+        var lightboxVideo = GLightbox({
+            selector: 'glightbox3',
+        });
+        var lightboxInlineIframe = GLightbox({
+            'selector': 'glightbox4'
+        });
+    </script>
+
+<!-- УВЕДОМЛЕНИЕ  https://itchief.ru/bootstrap/alerts  -->
+<!-- уведомление внизу экрана через 5 секунд после загрузки страницы -->
+<div id="bottom-alert" class="alert alert-success alert-dismissible fade"
+style="position: fixed; bottom: 15px; left: 0; right: 0; max-width: 700px; margin: 0 auto; z-index: 999999; text-align: center;">
+<span style="margin-left: 10px;">САЙТ НАХОДИТСЯ В РАЗРАБОТКЕ. ПОЛНАЯ ИНФОРМАЦИЯ В НАШЕЙ ГРУППЕ <a href="https://vk.com/domcharika" target="_blank" style="color:#0077FF;font-weight:700;">ВКОНТАКТЕ</a></span>
+<button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      document.querySelector('#bottom-alert').classList.add('show');
+    }, 5000);
+  });
+</script>
+
+<!-- УВЕДОМЛЕНИЕ  https://itchief.ru/bootstrap/alerts  -->
+<!-- уведомление внизу экрана закрывается через 5 секунд после загрузки страницы -->
+<!-- <div id="bottom-alert" class="alert alert-success alert-dismissible fade show"
+style="position: fixed; bottom: 15px; left: 0; right: 0; max-width: 560px; margin: 0 auto; z-index: 999999">
+САЙТ НАХОДИТСЯ В РАЗРАБОТКЕ
+<button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      const alert = bootstrap.Alert.getOrCreateInstance('#bottom-alert');
+      alert.close();
+    }, 5000);
+  });
+</script> -->
+
+<!-- КУКИ  https://itchief.ru/bootstrap/alerts  -->
+<!-- <script>
+const cookieAlert = {
+  show() {
+    const html = `<div id="cookie-alert" class="alert alert-warning alert-dismissible fade show" style="position: fixed; bottom: 20px; left: 0; right: 0; max-width: 500px; margin: 0 auto; z-index:999999;"><p><strong>Мы используем куки</strong>, потому что без них вообще ничего не работает.</p><div class="text-center"><button type="button" class="btn btn-secondary" data-bs-dismiss="alert">Хорошо</button></div></div>`
+    document.body.insertAdjacentHTML('beforeend', html);
+  },
+  init() {
+    if (!localStorage.getItem('cookie-alert')) {
+      this.show();
+      const el = document.querySelector('#cookie-alert');
+      el.addEventListener('closed.bs.alert', e => {
+        localStorage.setItem('cookie-alert', 1);
+      });
+    }
+  }
+}
+cookieAlert.init();
+</script> -->
+
+<!-- Mail Chimp validator -->
+<script src='js/mc-validate.js'></script>
+
+</body>
 </html>
