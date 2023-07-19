@@ -139,6 +139,10 @@ h6 small {
 	font-family: 'Manrope', sans-serif;
 }
 
+#main-title {
+	font-family: 'Mistral', cursive;
+}
+
 .pages h2 {
 	color: #282828;
 	text-transform: none;
