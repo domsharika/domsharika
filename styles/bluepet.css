@@ -162,6 +162,18 @@ button.list-group-item:hover,
 }
 /*________ Blue ________  */
 
+.navbar-collapse.collapse.show::-webkit-scrollbar-track {
+  background: #1e75a8;
+}
+.navbar-collapse.collapse.show::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.navbar-collapse.collapse.show {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #1e75a8;
+}
+
 .quote-message {
 background: #1e75a8;
 }
