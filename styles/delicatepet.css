@@ -160,6 +160,18 @@ button.list-group-item:hover,
     border-color: #5dc3af;
 }
 /*________  Pink  ________  */
+.navbar-collapse.collapse.show::-webkit-scrollbar-track {
+  background: #C35D71;
+}
+.navbar-collapse.collapse.show::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.navbar-collapse.collapse.show {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #C35D71;
+}
+
 
 .quote-message {
 background: #C35D71;
