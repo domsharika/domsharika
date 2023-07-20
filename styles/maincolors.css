@@ -159,6 +159,18 @@ button.list-group-item:hover,
 }
 /*________  Yellow  ________  */
 
+.navbar-collapse.collapse.show::-webkit-scrollbar-track {
+  background: #F19F1F;
+}
+.navbar-collapse.collapse.show::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.navbar-collapse.collapse.show {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #F19F1F;
+}
+
 .date-block--dark-bg {
 background-color: #F19F1F;
 }
