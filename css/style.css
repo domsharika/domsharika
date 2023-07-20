@@ -4416,9 +4416,8 @@ button:hover .button-text {
 }
 
 #my-form-status {
-  display: block;
-  background: #EF5030;
-  color: #fff;
-  padding: 5px;
-  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #EF5030;
+  text-transform: uppercase;
 }
