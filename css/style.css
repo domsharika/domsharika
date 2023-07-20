@@ -4414,3 +4414,11 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
   color: #fff;
 }
+
+#my-form-status {
+  display: block;
+  background: #EF5030;
+  color: #fff;
+  padding: 5px;
+  margin-top: 10px;
+}
