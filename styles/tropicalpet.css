@@ -167,6 +167,18 @@ button.list-group-item:hover,
 }
 /*________  Green  ________  */
 
+.navbar-collapse.collapse.show::-webkit-scrollbar-track {
+  background: #40863E;
+}
+.navbar-collapse.collapse.show::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.navbar-collapse.collapse.show {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #40863E;
+}
+
 h1#main-title {
 color: #40863E;
 }
