@@ -17,6 +17,19 @@
   scrollbar-color: #EF5030 #fff;
 }
 
+.navbar-collapse.collapse.show::-webkit-scrollbar-track {
+  background: #F19F1F;
+}
+.navbar-collapse.collapse.show::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+.navbar-collapse.collapse.show {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #F19F1F;
+}
+
 /* ::selection {
 background: #e31c1c;
 color: #fff;
