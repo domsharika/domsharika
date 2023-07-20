@@ -916,7 +916,7 @@ ul.slider-pagi {
 }
 
 #stats-pets {
-	background-image: url(../img/illustrations/bones.png), url(../img/illustrations/bones1.png);
+	background-image: url(../img/illustrations/bones.png);
 	animation: dog-bones-falling 9s linear infinite;
 	animation-direction: normal;
 	background-repeat: no-repeat;
