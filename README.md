@@ -1,6 +1,6 @@
 ## «Дом для Шарика»
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=domsharika&label=Profile%20views&color=0e75b6&style=flat" alt="domsharika" /></p>
-<img align="right" alt="banner" src="./banner-img.jpg" width="534" height="auto" />
+<img align="right" alt="banner" src="./banner-img.jpg" width="528" height="auto" />
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&quote=Не&ensp;смей&ensp;давать&ensp;надежду,&ensp;если&ensp;не&ensp;сможешь&ensp;её&ensp;оправдать.&ensp;Прикоснулся&ensp;к&ensp;душе&ensp;-&ensp;и&ensp;ты&ensp;уже&ensp;за&ensp;неё&ensp;в&ensp;ответе!&author=Дом&ensp;для&ensp;Шарика)](https://github.com/piyushsuthar/github-readme-quotes)
 
