@@ -1,6 +1,6 @@
 ## «Дом для Шарика»
 ### Макет статического сайта для приюта
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Не&ensp;смей&ensp;давать&ensp;надежду,&ensp;если&ensp;не&ensp;сможешь&ensp;её&ensp;оправдать.&ensp;Прикоснулся&ensp;к&ensp;душе&ensp;-&ensp;и&ensp;ты&ensp;уже&ensp;за&ensp;неё&ensp;в&ensp;ответе!&author=Дом&ensp;для&ensp;Шарика)](https://github.com/piyushsuthar/github-readme-quotes)
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&quote=Не&ensp;смей&ensp;давать&ensp;надежду,&ensp;если&ensp;не&ensp;сможешь&ensp;её&ensp;оправдать.&ensp;Прикоснулся&ensp;к&ensp;душе&ensp;-&ensp;и&ensp;ты&ensp;уже&ensp;за&ensp;неё&ensp;в&ensp;ответе!&author=Дом&ensp;для&ensp;Шарика)](https://github.com/piyushsuthar/github-readme-quotes)
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
