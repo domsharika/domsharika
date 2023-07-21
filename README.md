@@ -1,7 +1,23 @@
 ## «Дом для Шарика»
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&quote=Не&ensp;смей&ensp;давать&ensp;надежду,&ensp;если&ensp;не&ensp;сможешь&ensp;её&ensp;оправдать.&ensp;Прикоснулся&ensp;к&ensp;душе&ensp;-&ensp;и&ensp;ты&ensp;уже&ensp;за&ensp;неё&ensp;в&ensp;ответе!&author=Дом&ensp;для&ensp;Шарика)](https://github.com/piyushsuthar/github-readme-quotes)
 ### Макет статического сайта для приюта
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+<p>
+  <a href="https://html.com/" target="_blank">
+    <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white" alt="HTML">
+  </a>
+  <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
+    <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=flat-square&logo=css3&logoColor=white" alt="CSS">
+  </a>
+  <a href="https://www.javascript.com/" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  </a>
+  <a href="https://jquery.com/" target="_blank">
+    <img src="https://img.shields.io/badge/jQuery-%230869AE.svg?style=flat-square&logo=jquery&logoColor=white" alt="jQuery">
+  </a>
+  <a href="https://getbootstrap.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Bootstrap_v5.3.0-%237210F5.svg?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  </a>
+</p>
 
 <!--
 **domsharika/domsharika** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
