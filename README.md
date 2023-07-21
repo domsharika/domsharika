@@ -23,6 +23,9 @@
   </a>
 </p>
 
+### ⚡ Дополнительно подключены скрипты:
+- GLightbox
+- Leaflet
 <!--
 **domsharika/domsharika** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
