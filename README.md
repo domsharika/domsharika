@@ -1,5 +1,9 @@
 ## «Дом для Шарика»
+
+<img align="right" alt="banner" src="./banner.jpg" width="450" height="auto" />
+
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&quote=Не&ensp;смей&ensp;давать&ensp;надежду,&ensp;если&ensp;не&ensp;сможешь&ensp;её&ensp;оправдать.&ensp;Прикоснулся&ensp;к&ensp;душе&ensp;-&ensp;и&ensp;ты&ensp;уже&ensp;за&ensp;неё&ensp;в&ensp;ответе!&author=Дом&ensp;для&ensp;Шарика)](https://github.com/piyushsuthar/github-readme-quotes)
+
 ### Макет статического сайта для приюта
 <p>
   <a href="https://html.com/" target="_blank">
