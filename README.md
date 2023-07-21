@@ -1,4 +1,4 @@
-### Hi there 👋
+### Макет статического сайта для приюта «Дом для Шарика» 👋
 
 <!--
 **domsharika/domsharika** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
