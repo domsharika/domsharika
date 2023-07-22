@@ -24,8 +24,9 @@
 </p>
 
 ### ⚡ Дополнительно подключены скрипты:
-- GLightbox
-- Leaflet
+- Галерея <a href="https://biati-digital.github.io/glightbox/" target="_blank">GLightbox</a>
+- Карты <a href="https://leafletjs.com/" target="_blank">Leaflet</a>
+- Форма отправки данных <a href="https://formspree.io/" target="_blank">formspree.io</a>
 <!--
 **domsharika/domsharika** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
